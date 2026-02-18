@@ -1,0 +1,176 @@
+{
+  "verified_7_day_schedule": {
+    "day_1": [
+      {
+        "ex": "Goblet Squats",
+        "sets": "4",
+        "reps": "8",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Barbell Romanian Deadlifts",
+        "sets": "3",
+        "reps": "10",
+        "eq": "barbell"
+      },
+      {
+        "ex": "Seated Leg Curls",
+        "sets": "3",
+        "reps": "12",
+        "eq": "squat rack"
+      },
+      {
+        "ex": "Standing Calf Raises",
+        "sets": "3",
+        "reps": "15",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_2": [
+      {
+        "ex": "Dumbbell Chest Press",
+        "sets": "4",
+        "reps": "8",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Incline Dumbbell Press",
+        "sets": "3",
+        "reps": "10",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Tricep Dips (using a bench or chair)",
+        "sets": "3",
+        "reps": "12",
+        "eq": "bodyweight"
+      },
+      {
+        "ex": "Overhead Dumbbell Extension",
+        "sets": "3",
+        "reps": "15",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_3": [
+      {
+        "ex": "Barbell Bent-Over Rows",
+        "sets": "3",
+        "reps": "8",
+        "eq": "barbell"
+      },
+      {
+        "ex": "Lat Pulldowns (using the squat rack)",
+        "sets": "3",
+        "reps": "10",
+        "eq": "squat rack"
+      },
+      {
+        "ex": "Dumbbell Bicep Curls",
+        "sets": "3",
+        "reps": "12",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Hammer Curls (using a bench or chair)",
+        "sets": "3",
+        "reps": "12",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_4": [
+      {
+        "ex": "Dumbbell Shoulder Press",
+        "sets": "3",
+        "reps": "8",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Lateral Raises",
+        "sets": "3",
+        "reps": "10",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Plank",
+        "sets": "3",
+        "reps": "60",
+        "eq": "bodyweight"
+      },
+      {
+        "ex": "Russian Twists (using a bench or chair)",
+        "sets": "3",
+        "reps": "12",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_5": [
+      {
+        "ex": "Goblet Squats",
+        "sets": "4",
+        "reps": "8",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Barbell Romanian Deadlifts",
+        "sets": "3",
+        "reps": "10",
+        "eq": "barbell"
+      },
+      {
+        "ex": "Seated Leg Curls",
+        "sets": "3",
+        "reps": "12",
+        "eq": "squat rack"
+      },
+      {
+        "ex": "Standing Calf Raises",
+        "sets": "3",
+        "reps": "15",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_6": [
+      {
+        "ex": "Dumbbell Chest Press",
+        "sets": "4",
+        "reps": "8",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Incline Dumbbell Press",
+        "sets": "3",
+        "reps": "10",
+        "eq": "dumbbells"
+      },
+      {
+        "ex": "Tricep Dips (using a bench or chair)",
+        "sets": "3",
+        "reps": "12",
+        "eq": "bodyweight"
+      },
+      {
+        "ex": "Overhead Dumbbell Extension",
+        "sets": "3",
+        "reps": "15",
+        "eq": "dumbbells"
+      }
+    ],
+    "day_7": [
+      {
+        "ex": "Light Cardio (jogging in place, jumping jacks, etc.)",
+        "sets": "1",
+        "reps": "30",
+        "eq": "bodyweight"
+      }
+    ]
+  },
+  "safety_summary": "To avoid aggravating your lower back pain (disc bulge) and sensitive right knee, it's essential to modify your workout routine. Avoid heavy lifting, bending, and twisting movements, especially those that involve your lower back or knee. Opt for low-impact exercises like cycling, swimming, or using an elliptical machine. When performing squats and lunges, maintain proper form and avoid excessive knee bend. It's also crucial to warm up before each workout and cool down afterwards to prevent muscle strain. Consider incorporating core strengthening exercises to improve your posture and reduce lower back stress. Consult with a healthcare professional or a certified fitness trainer to create a personalized workout plan that suits your needs and abilities.",
+  "equipment_identified": [
+    "squat rack",
+    "barbell",
+    "dumbbells"
+  ],
+  "safety_status": "VERIFIED",
+  "violations_found": []
+}
