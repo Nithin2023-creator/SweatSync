@@ -1,0 +1,603 @@
+{
+    "exercises": [
+        {
+            "id": "EX001",
+            "name": "Barbell Back Squat",
+            "muscle_group": "quadriceps",
+            "secondary_muscles": [
+                "glutes",
+                "hamstrings",
+                "core"
+            ],
+            "equipment": [
+                "barbell",
+                "squat_rack"
+            ],
+            "movement_type": "compound",
+            "position": "standing",
+            "tags": [
+                "knee_flexion",
+                "spinal_loading",
+                "hip_hinge"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Leg Press Machine",
+            "anatomy_url": "https://musclewiki.com/barbell/male/quadriceps/barbell-squat",
+            "heatmap_url": "https://musclewiki.com/barbell/male/quadriceps/barbell-squat"
+        },
+        {
+            "id": "EX002",
+            "name": "Dumbbell Bench Press",
+            "muscle_group": "chest",
+            "secondary_muscles": [
+                "shoulders",
+                "triceps"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "movement_type": "compound",
+            "position": "supine",
+            "tags": [
+                "horizontal_push"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Chest Press Machine",
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press"
+        },
+        {
+            "id": "EX003",
+            "name": "Lat Pulldown",
+            "muscle_group": "back",
+            "secondary_muscles": [
+                "biceps",
+                "forearms"
+            ],
+            "equipment": [
+                "cable_machine"
+            ],
+            "movement_type": "compound",
+            "position": "seated",
+            "tags": [
+                "vertical_pull"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/cables/male/lats/lat-pulldown",
+            "heatmap_url": "https://musclewiki.com/cables/male/lats/lat-pulldown"
+        },
+        {
+            "id": "EX004",
+            "name": "Seated Dumbbell Shoulder Press",
+            "muscle_group": "shoulders",
+            "secondary_muscles": [
+                "triceps"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "movement_type": "compound",
+            "position": "seated",
+            "tags": [
+                "vertical_push",
+                "overhead_press"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press"
+        },
+        {
+            "id": "EX005",
+            "name": "Barbell Bicep Curl",
+            "muscle_group": "biceps",
+            "secondary_muscles": [
+                "forearms"
+            ],
+            "equipment": [
+                "barbell"
+            ],
+            "movement_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "elbow_flexion"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Dumbbell Curl",
+            "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
+            "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
+        },
+        {
+            "id": "EX006",
+            "name": "Tricep Pushdown",
+            "muscle_group": "triceps",
+            "secondary_muscles": [],
+            "equipment": [
+                "cable_machine"
+            ],
+            "movement_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "elbow_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Overhead Tricep Extension",
+            "anatomy_url": "https://musclewiki.com/cables/male/triceps/cable-pushdown",
+            "heatmap_url": "https://musclewiki.com/cables/male/triceps/cable-pushdown"
+        },
+        {
+            "id": "EX007",
+            "name": "Romanian Deadlift",
+            "muscle_group": "hamstrings",
+            "secondary_muscles": [
+                "glutes",
+                "lower_back"
+            ],
+            "equipment": [
+                "barbell"
+            ],
+            "movement_type": "compound",
+            "position": "standing",
+            "tags": [
+                "hip_hinge",
+                "spinal_loading"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Leg Curl",
+            "anatomy_url": "https://musclewiki.com/barbell/male/hamstrings/barbell-romanian-deadlift",
+            "heatmap_url": "https://musclewiki.com/barbell/male/hamstrings/barbell-romanian-deadlift"
+        },
+        {
+            "id": "EX008",
+            "name": "Glute Bridge",
+            "muscle_group": "glutes",
+            "secondary_muscles": [
+                "hamstrings",
+                "core"
+            ],
+            "equipment": [
+                "bodyweight"
+            ],
+            "movement_type": "isolation",
+            "position": "supine",
+            "tags": [
+                "hip_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Hip Abduction",
+            "anatomy_url": "https://musclewiki.com/bodyweight/male/glutes/glute-bridge",
+            "heatmap_url": "https://musclewiki.com/bodyweight/male/glutes/glute-bridge"
+        },
+        {
+            "id": "EX009",
+            "name": "Plank",
+            "muscle_group": "core",
+            "secondary_muscles": [
+                "shoulders"
+            ],
+            "equipment": [
+                "bodyweight"
+            ],
+            "movement_type": "isometric",
+            "position": "prone",
+            "tags": [
+                "core_stability"
+            ],
+            "adaptive_variant": "Dead Bug",
+            "seated_variant": "Seated Core Twist",
+            "anatomy_url": "https://musclewiki.com/bodyweight/male/abs/plank",
+            "heatmap_url": "https://musclewiki.com/bodyweight/male/abs/plank"
+        },
+        {
+            "id": "EX010",
+            "name": "Seated Calf Raise",
+            "muscle_group": "calves",
+            "secondary_muscles": [],
+            "equipment": [
+                "bench",
+                "dumbbells"
+            ],
+            "movement_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "ankle_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
+        },
+        {
+            "id": "EX011",
+            "name": "Chest Press Machine",
+            "muscle_group": "chest",
+            "secondary_muscles": [
+                "shoulders",
+                "triceps"
+            ],
+            "equipment": [
+                "machine"
+            ],
+            "movement_type": "compound",
+            "position": "seated",
+            "tags": [
+                "horizontal_push"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/machine/male/chest/machine-chest-press",
+            "heatmap_url": "https://musclewiki.com/machine/male/chest/machine-chest-press"
+        },
+        {
+            "id": "EX012",
+            "name": "Leg Press",
+            "muscle_group": "quadriceps",
+            "secondary_muscles": [
+                "glutes",
+                "hamstrings"
+            ],
+            "equipment": [
+                "machine"
+            ],
+            "movement_type": "compound",
+            "position": "seated",
+            "tags": [
+                "knee_flexion",
+                "hip_hinge"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/machine/male/quads/machine-leg-press",
+            "heatmap_url": "https://musclewiki.com/machine/male/quads/machine-leg-press"
+        },
+        {
+            "id": "EX013",
+            "name": "Face Pull",
+            "muscle_group": "shoulders",
+            "secondary_muscles": [
+                "back"
+            ],
+            "equipment": [
+                "cable_machine"
+            ],
+            "movement_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "horizontal_pull"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Face Pull",
+            "anatomy_url": "https://musclewiki.com/cables/male/shoulders/cable-face-pull",
+            "heatmap_url": "https://musclewiki.com/cables/male/shoulders/cable-face-pull"
+        },
+        {
+            "id": "EX014",
+            "name": "Dumbbell Lateral Raise",
+            "muscle_group": "shoulders",
+            "secondary_muscles": [],
+            "equipment": [
+                "dumbbells"
+            ],
+            "movement_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "shoulder_abduction"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Lateral Raise",
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
+        },
+        {
+            "id": "EX015",
+            "name": "Dumbbell Row",
+            "muscle_group": "back",
+            "secondary_muscles": [
+                "biceps"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "motion_type": "compound",
+            "position": "prone",
+            "tags": [
+                "horizontal_pull"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Cable Row",
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row"
+        },
+        {
+            "id": "EX016",
+            "name": "Barbell Glute Bridge",
+            "muscle_group": "glutes",
+            "secondary_muscles": [
+                "hamstrings",
+                "core"
+            ],
+            "equipment": [
+                "barbell",
+                "bench"
+            ],
+            "motion_type": "isolation",
+            "position": "supine",
+            "tags": [
+                "hip_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
+            "heatmap_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge"
+        },
+        {
+            "id": "EX017",
+            "name": "Lying Dumbbell Leg Curl",
+            "muscle_group": "hamstrings",
+            "secondary_muscles": [],
+            "equipment": [
+                "dumbbells"
+            ],
+            "motion_type": "isolation",
+            "position": "prone",
+            "tags": [
+                "knee_flexion"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Leg Curl",
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+        },
+        {
+            "id": "EX018",
+            "name": "Seated Calf Raise (Machine)",
+            "muscle_group": "calves",
+            "secondary_muscles": [],
+            "equipment": [
+                "machine"
+            ],
+            "motion_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "ankle_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/machine/male/calves/seated-machine-calf-raise",
+            "heatmap_url": "https://musclewiki.com/machine/male/calves/seated-machine-calf-raise"
+        },
+        {
+            "id": "EX019",
+            "name": "Wall Sit",
+            "muscle_group": "quadriceps",
+            "secondary_muscles": [],
+            "equipment": [
+                "bodyweight"
+            ],
+            "motion_type": "isometric",
+            "position": "standing",
+            "tags": [
+                "knee_flexion"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/bodyweight/male/quadriceps/wall-sit",
+            "heatmap_url": "https://musclewiki.com/bodyweight/male/quadriceps/wall-sit"
+        },
+        {
+            "id": "EX020",
+            "name": "Banded Lateral Walk",
+            "muscle_group": "glutes",
+            "secondary_muscles": [],
+            "equipment": [
+                "bands"
+            ],
+            "motion_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "hip_abduction"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Hip Abduction",
+            "anatomy_url": "https://musclewiki.com/bands/male/glutes/lateral-walk",
+            "heatmap_url": "https://musclewiki.com/bands/male/glutes/lateral-walk"
+        },
+        {
+            "id": "EX021",
+            "name": "Supine Hip Abduction",
+            "muscle_group": "glutes",
+            "secondary_muscles": [],
+            "equipment": [
+                "bodyweight",
+                "bands"
+            ],
+            "motion_type": "isolation",
+            "position": "supine",
+            "tags": [
+                "hip_abduction"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/bodyweight/male/glutes/supine-hip-abduction",
+            "heatmap_url": "https://musclewiki.com/bodyweight/male/glutes/supine-hip-abduction"
+        },
+        {
+            "id": "EX022",
+            "name": "Dumbbell Hip Thrust",
+            "muscle_group": "glutes",
+            "secondary_muscles": [
+                "hamstrings"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "motion_type": "compound",
+            "position": "supine",
+            "tags": [
+                "hip_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
+        },
+        {
+            "id": "EX023",
+            "name": "Prone Hamstring Curl (Machine)",
+            "muscle_group": "hamstrings",
+            "secondary_muscles": [],
+            "equipment": [
+                "machine"
+            ],
+            "motion_type": "isolation",
+            "position": "prone",
+            "tags": [
+                "knee_flexion"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": "Seated Leg Curl",
+            "anatomy_url": "https://musclewiki.com/machine/male/hamstrings/lying-machine-leg-curl",
+            "heatmap_url": "https://musclewiki.com/machine/male/hamstrings/lying-machine-leg-curl"
+        },
+        {
+            "id": "EX024",
+            "name": "Standing Cable Kickback",
+            "muscle_group": "glutes",
+            "secondary_muscles": [],
+            "equipment": [
+                "cable_machine"
+            ],
+            "motion_type": "isolation",
+            "position": "standing",
+            "tags": [
+                "hip_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/cables/male/glutes/cable-glute-kickback",
+            "heatmap_url": "https://musclewiki.com/cables/male/glutes/cable-glute-kickback"
+        },
+        {
+            "id": "EX025",
+            "name": "Leg Extension (Limited ROM)",
+            "muscle_group": "quadriceps",
+            "secondary_muscles": [],
+            "equipment": [
+                "machine"
+            ],
+            "motion_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "knee_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/machine/male/quadriceps/leg-extension",
+            "heatmap_url": "https://musclewiki.com/machine/male/quadriceps/leg-extension"
+        },
+        {
+            "id": "EX026",
+            "name": "Dumbbell Pullover",
+            "muscle_group": "chest",
+            "secondary_muscles": [
+                "back"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "motion_type": "compound",
+            "position": "supine",
+            "tags": [
+                "horizontal_pull"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
+        },
+        {
+            "id": "EX027",
+            "name": "Incline Dumbbell Curl",
+            "muscle_group": "biceps",
+            "secondary_muscles": [
+                "forearms"
+            ],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "motion_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "elbow_flexion"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
+        },
+        {
+            "id": "EX028",
+            "name": "Seated Overhead Tricep Extension",
+            "muscle_group": "triceps",
+            "secondary_muscles": [],
+            "equipment": [
+                "dumbbells",
+                "bench"
+            ],
+            "motion_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "elbow_extension"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
+            "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
+        },
+        {
+            "id": "EX029",
+            "name": "Face Pull (Seated)",
+            "muscle_group": "shoulders",
+            "secondary_muscles": [
+                "back"
+            ],
+            "equipment": [
+                "cable_machine"
+            ],
+            "motion_type": "isolation",
+            "position": "seated",
+            "tags": [
+                "horizontal_pull"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/cables/male/shoulders/seated-face-pull",
+            "heatmap_url": "https://musclewiki.com/cables/male/shoulders/seated-face-pull"
+        },
+        {
+            "id": "EX030",
+            "name": "Dead Bug",
+            "muscle_group": "core",
+            "secondary_muscles": [],
+            "equipment": [
+                "bodyweight"
+            ],
+            "motion_type": "isometric",
+            "position": "supine",
+            "tags": [
+                "core_stability"
+            ],
+            "adaptive_variant": null,
+            "seated_variant": null,
+            "anatomy_url": "https://musclewiki.com/bodyweight/male/abs/dead-bug",
+            "heatmap_url": "https://musclewiki.com/bodyweight/male/abs/dead-bug"
+        }
+    ]
+}

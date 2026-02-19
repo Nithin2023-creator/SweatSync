@@ -1,0 +1,85 @@
+{
+    "conditions": {
+        "disc_bulge": {
+            "hard_stop": [
+                "spinal_loading",
+                "trunk_flexion",
+                "trunk_rotation_loaded"
+            ],
+            "modifications": [
+                "Use belt for any standing press",
+                "Neutral spine only"
+            ],
+            "safe_positions": [
+                "seated",
+                "supine",
+                "prone"
+            ]
+        },
+        "knee_injury": {
+            "hard_stop": [
+                "deep_knee_flexion",
+                "knee_extension_loaded",
+                "plyometrics"
+            ],
+            "modifications": [
+                "Limit ROM to 90°",
+                "No impact"
+            ],
+            "safe_positions": [
+                "seated",
+                "supine"
+            ]
+        },
+        "shoulder_impingement": {
+            "hard_stop": [
+                "overhead_press",
+                "behind_neck"
+            ],
+            "modifications": [
+                "Keep arms below 90° abduction"
+            ],
+            "safe_positions": [
+                "any"
+            ]
+        },
+        "paralysis_lower": {
+            "hard_stop": [
+                "all_lower_body"
+            ],
+            "modifications": [
+                "Redistribute volume to upper body"
+            ],
+            "safe_positions": [
+                "seated",
+                "supine"
+            ],
+            "force_adaptive": true
+        },
+        "paralysis_upper": {
+            "hard_stop": [
+                "all_upper_body"
+            ],
+            "modifications": [
+                "Redistribute volume to lower body + core"
+            ],
+            "safe_positions": [
+                "seated",
+                "standing"
+            ],
+            "force_adaptive": true
+        },
+        "cardiac_risk": {
+            "hard_stop": [
+                "valsalva_maneuver"
+            ],
+            "modifications": [
+                "Cap RPE at 7",
+                "Rest 90s minimum"
+            ],
+            "safe_positions": [
+                "any"
+            ]
+        }
+    }
+}

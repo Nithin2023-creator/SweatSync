@@ -1,50 +1,62 @@
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import StateGraph, END
 from sweatsync.state import SweatSyncState
-from sweatsync.agents.scout import scout_node
-from sweatsync.agents.physio import physio_node
-from sweatsync.agents.strategist import strategist_node
-from sweatsync.agents.librarian import librarian_node
-from sweatsync.agents.auditor import auditor_node
+from sweatsync.agents.guardian import guardian_node
+from sweatsync.agents.architect import architect_node
+from sweatsync.agents.curator import curator_node
 
-def safety_check(state: SweatSyncState):
+def check_conflicts(state: SweatSyncState) -> str:
     """
-    Conditional edge logic: 
-    - If Auditor says no, and we haven't looped too much, go back to Librarian.
-    - Otherwise, finish.
+    Conditional edge: check if Architect's output conflicts with Guardian's stops.
+    Also verifies frequency budget (e.g. 4 days/month target).
     """
-    if not state.get("is_verified", False):
-        if state.get("revision_count", 0) < 3:
-            print(f"--- SAFETY VIOLATION DETECTED: {state.get('violations')} ---")
-            print(f"--- REVISING (Attempt {state.get('revision_count')}) ---")
-            return "librarian"
-    return END
+    blueprint = state.get("strategic_blueprint", {})
+    sho = state.get("user_sho", {})
+    manifesto = state.get("safety_manifesto", {})
+    
+    # 1. Frequency Budget Check
+    days_per_week = sho.get("training_days_per_week", 3)
+    # Correcting for Month/Week terminology from user feedback (4 days/month = 1 day/week)
+    # The SHO in main.py currently has 4 days_per_week, but if it were month, we'd scale it.
+    actual_days = [d for d, m in blueprint.get("training_split", {}).items() if m != ["Rest"] and m != ["Recovery"]]
+    
+    if len(actual_days) != days_per_week:
+        # Potentially set a conflict flag to trigger revision
+        return "revise"
+
+    # 2. Safety manifesto check
+    hard_stops = set(manifesto.get("hard_stops", []))
+    for day, muscles in blueprint.get("training_split", {}).items():
+        if any(stop in " ".join(muscles).lower() for stop in hard_stops):
+            return "revise"
+
+    if state.get("revision_count", 0) >= state.get("max_revisions", 2):
+        return "proceed"
+        
+    return "proceed"
 
 def create_sweatsync_graph():
-    # Initialize graph with state definition
-    workflow = StateGraph(SweatSyncState)
+    """Build the 3-agent SweatSync graph."""
+    graph = StateGraph(SweatSyncState)
 
     # Add nodes
-    workflow.add_node("scout", scout_node)
-    workflow.add_node("physio", physio_node)
-    workflow.add_node("strategist", strategist_node)
-    workflow.add_node("librarian", librarian_node)
-    workflow.add_node("auditor", auditor_node)
+    graph.add_node("guardian", guardian_node)
+    graph.add_node("architect", architect_node)
+    graph.add_node("curator", curator_node)
 
-    # Add linear flow
-    workflow.add_edge(START, "scout")
-    workflow.add_edge("scout", "physio")
-    workflow.add_edge("physio", "strategist")
-    workflow.add_edge("strategist", "librarian")
-    workflow.add_edge("librarian", "auditor")
-
-    # Add conditional edge for the Safety Loop
-    workflow.add_conditional_edges(
-        "auditor",
-        safety_check,
+    # Define workflow
+    graph.set_entry_point("guardian")
+    graph.add_edge("guardian", "architect")
+    
+    # Conditional edge from architect to check conflicts (simplified loop for now)
+    graph.add_conditional_edges(
+        "architect",
+        check_conflicts,
         {
-            "librarian": "librarian",
-            END: END
+            "revise": "architect", # In a real scenario, feedback would be added to state
+            "proceed": "curator"
         }
     )
+    
+    graph.add_edge("curator", END)
 
-    return workflow.compile()
+    return graph.compile()

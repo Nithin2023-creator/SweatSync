@@ -1,15 +1,11 @@
-from typing import TypedDict, List, Optional
+from typing import TypedDict, List, Dict, Any
 
 class SweatSyncState(TypedDict):
-    """
-    Main state for the SweatSync Agentic Engine.
-    Tracks everything from user profile to the final verified plan.
-    """
-    user_profile: dict        # age, weight, goals, injuries
-    equipment_list: List[str] # available gym equipment extracted by Scout
-    safety_rules: List[str]   # forbidden movements from Physio
-    draft_plan: dict          # 7-day workout schedule
-    is_verified: bool         # Auditor safety pass/fail
-    revision_count: int       # Iteration tracking for safety loop
-    safety_summary: str       # Physio's final narrative result
-    violations: List[str]     # Auditor's identified issues (if any)
+    """Shared state for the 3-agent SweatSync pipeline."""
+    user_sho: Dict[str, Any]           # Structured Health Object (Input)
+    safety_manifesto: Dict[str, Any]   # Agent A output
+    strategic_blueprint: Dict[str, Any] # Agent B output
+    interactive_planner: Dict[str, Any] # Agent C output (Final)
+    revision_count: int
+    conflict_detected: bool
+    max_revisions: int

@@ -1,1 +1,1 @@
-# SweatSync Core Package
+# SweatSync Agentic Engine

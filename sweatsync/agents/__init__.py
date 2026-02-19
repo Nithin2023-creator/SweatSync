@@ -1,1 +1,1 @@
-# SweatSync Agent Nodes
+# SweatSync Agentic Workflow Nodes
