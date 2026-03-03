@@ -1,21 +1,35 @@
 import json
+import sys
 from sweatsync.graph import create_sweatsync_graph
+from sweatsync.agents.interviewer import run_onboarding
 
 def main():
-    # 1. Define Structured Health Object (SHO)
-    sample_sho = {
-        "age": 32,
-        "weight_kg": 85.0,
-        "height_cm": 178.0,
-        "sex": "male",
-        "goals": "Build muscle and increase strength. Focus on longevity.",
-        "training_days_per_week": 4,
-        "experience_level": "intermediate",
-        "available_equipment": ["squat_rack", "barbell", "dumbbells", "bench"],
-        "medical_flags": ["disc_bulge", "knee_injury"],
-        "injuries_description": "Lower back pain (disc bulge L4-L5), sensitive right knee when squatting deep."
-    }
-
+    # 1. Gather Structured Health Object (SHO)
+    if "--demo" in sys.argv:
+        print("--- RUNNING IN DEMO MODE (HARDCODED SHO) ---")
+        sample_sho = {
+            "age": 32,
+            "weight_kg": 85.0,
+            "height_cm": 178.0,
+            "sex": "male",
+            "goals": "Build muscle and increase strength. Focus on longevity.",
+            "training_days_per_week": 4,
+            "allowed_days": ["monday", "tuesday", "thursday", "friday"],
+            "experience_level": "intermediate",
+            "target_timeline": "3 months",
+            "available_equipment": ["squat_rack", "barbell", "dumbbells", "bench"],
+            "medical_flags": ["disc_bulge", "knee_injury"],
+            "injuries_description": "Lower back pain (disc bulge L4-L5), sensitive right knee when squatting deep."
+        }
+    else:
+        sample_sho = run_onboarding()
+        if not sample_sho:
+            print("Onboarding aborted. Exiting.")
+            sys.exit(0)
+        
+        print(f"\n✅ SHO successfully generated:")
+        print(json.dumps(sample_sho, indent=2))
+        print("\n")
     # 2. Initialize state
     initial_state = {
         "user_sho": sample_sho,

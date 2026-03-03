@@ -11,7 +11,7 @@
               "exercise_id": "EX002",
               "name": "Dumbbell Bench Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
@@ -21,7 +21,7 @@
               "exercise_id": "EX015",
               "name": "Dumbbell Row",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
@@ -31,7 +31,7 @@
               "exercise_id": "EX004",
               "name": "Seated Dumbbell Shoulder Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
@@ -46,7 +46,7 @@
               "exercise_id": "EX016",
               "name": "Barbell Glute Bridge",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "barbell, bench",
               "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
@@ -56,21 +56,21 @@
               "exercise_id": "EX017",
               "name": "Lying Dumbbell Leg Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
             },
             {
-              "exercise_id": "EX010",
-              "name": "Seated Calf Raise",
+              "exercise_id": "EX022",
+              "name": "Dumbbell Hip Thrust",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
-              "equipment": "bench, dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
             }
           ]
         },
@@ -85,31 +85,31 @@
               "exercise_id": "EX026",
               "name": "Dumbbell Pullover",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
             },
             {
+              "exercise_id": "EX005",
+              "name": "Barbell Bicep Curl",
+              "sets": 3,
+              "reps": "8-12",
+              "rpe": 8.0,
+              "equipment": "barbell",
+              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
+              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
+            },
+            {
               "exercise_id": "EX027",
               "name": "Incline Dumbbell Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
-            },
-            {
-              "exercise_id": "EX028",
-              "name": "Seated Overhead Tricep Extension",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
             }
           ]
         },
@@ -117,34 +117,34 @@
           "day_label": "Day 5: Lower Body",
           "exercises": [
             {
+              "exercise_id": "EX010",
+              "name": "Seated Calf Raise",
+              "sets": 3,
+              "reps": "8-12",
+              "rpe": 8.0,
+              "equipment": "bench, dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
+            },
+            {
+              "exercise_id": "EX017",
+              "name": "Lying Dumbbell Leg Curl",
+              "sets": 3,
+              "reps": "8-12",
+              "rpe": 8.0,
+              "equipment": "dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+            },
+            {
               "exercise_id": "EX022",
               "name": "Dumbbell Hip Thrust",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
-            },
-            {
-              "exercise_id": "EX005",
-              "name": "Barbell Bicep Curl",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "barbell",
-              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
-              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
-            },
-            {
-              "exercise_id": "EX014",
-              "name": "Dumbbell Lateral Raise",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
             }
           ]
         },
@@ -163,13 +163,13 @@
       "phase": "accumulation",
       "days": {
         "day_1": {
-          "day_label": "Upper Body",
+          "day_label": "Day 1: Upper Body",
           "exercises": [
             {
               "exercise_id": "EX002",
               "name": "Dumbbell Bench Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
@@ -179,7 +179,7 @@
               "exercise_id": "EX015",
               "name": "Dumbbell Row",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
@@ -189,7 +189,7 @@
               "exercise_id": "EX004",
               "name": "Seated Dumbbell Shoulder Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
@@ -198,13 +198,13 @@
           ]
         },
         "day_2": {
-          "day_label": "Lower Body",
+          "day_label": "Day 2: Lower Body",
           "exercises": [
             {
               "exercise_id": "EX016",
               "name": "Barbell Glute Bridge",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "barbell, bench",
               "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
@@ -214,7 +214,7 @@
               "exercise_id": "EX017",
               "name": "Lying Dumbbell Leg Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
@@ -224,7 +224,7 @@
               "exercise_id": "EX010",
               "name": "Seated Calf Raise",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "bench, dumbbells",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
@@ -233,85 +233,85 @@
           ]
         },
         "day_3": {
-          "day_label": "Rest",
+          "day_label": "Day 3: Rest",
           "exercises": []
         },
         "day_4": {
-          "day_label": "Upper Body",
+          "day_label": "Day 4: Upper Body",
           "exercises": [
             {
               "exercise_id": "EX026",
               "name": "Dumbbell Pullover",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
             },
             {
-              "exercise_id": "EX028",
-              "name": "Seated Overhead Tricep Extension",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
-            },
-            {
               "exercise_id": "EX027",
               "name": "Incline Dumbbell Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
+            },
+            {
+              "exercise_id": "EX028",
+              "name": "Seated Overhead Tricep Extension",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
             }
           ]
         },
         "day_5": {
-          "day_label": "Lower Body",
+          "day_label": "Day 5: Lower Body",
           "exercises": [
             {
               "exercise_id": "EX022",
               "name": "Dumbbell Hip Thrust",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
             },
             {
-              "exercise_id": "EX005",
-              "name": "Barbell Bicep Curl",
+              "exercise_id": "EX017",
+              "name": "Lying Dumbbell Leg Curl",
               "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "barbell",
-              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
-              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
-            },
-            {
-              "exercise_id": "EX014",
-              "name": "Dumbbell Lateral Raise",
-              "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+            },
+            {
+              "exercise_id": "EX010",
+              "name": "Seated Calf Raise",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "bench, dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
             }
           ]
         },
         "day_6": {
-          "day_label": "Rest",
+          "day_label": "Day 6: Rest",
           "exercises": []
         },
         "day_7": {
-          "day_label": "Recovery",
+          "day_label": "Day 7: Recovery",
           "exercises": []
         }
       }
@@ -319,6 +319,164 @@
     {
       "week_number": 3,
       "phase": "accumulation",
+      "days": {
+        "day_1": {
+          "day_label": "Day 1: Upper Body",
+          "exercises": [
+            {
+              "exercise_id": "EX004",
+              "name": "Seated Dumbbell Shoulder Press",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press"
+            },
+            {
+              "exercise_id": "EX015",
+              "name": "Dumbbell Row",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row"
+            },
+            {
+              "exercise_id": "EX026",
+              "name": "Dumbbell Pullover",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
+            }
+          ]
+        },
+        "day_2": {
+          "day_label": "Day 2: Lower Body",
+          "exercises": [
+            {
+              "exercise_id": "EX016",
+              "name": "Barbell Glute Bridge",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "barbell, bench",
+              "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
+              "heatmap_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge"
+            },
+            {
+              "exercise_id": "EX017",
+              "name": "Lying Dumbbell Leg Curl",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+            },
+            {
+              "exercise_id": "EX022",
+              "name": "Dumbbell Hip Thrust",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
+            }
+          ]
+        },
+        "day_3": {
+          "day_label": "Day 3: Rest",
+          "exercises": []
+        },
+        "day_4": {
+          "day_label": "Day 4: Upper Body",
+          "exercises": [
+            {
+              "exercise_id": "EX002",
+              "name": "Dumbbell Bench Press",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press"
+            },
+            {
+              "exercise_id": "EX014",
+              "name": "Dumbbell Lateral Raise",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
+            },
+            {
+              "exercise_id": "EX028",
+              "name": "Seated Overhead Tricep Extension",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
+            }
+          ]
+        },
+        "day_5": {
+          "day_label": "Day 5: Lower Body",
+          "exercises": [
+            {
+              "exercise_id": "EX010",
+              "name": "Seated Calf Raise",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "bench, dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
+            },
+            {
+              "exercise_id": "EX005",
+              "name": "Barbell Bicep Curl",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "barbell",
+              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
+              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
+            },
+            {
+              "exercise_id": "EX027",
+              "name": "Incline Dumbbell Curl",
+              "sets": 3,
+              "reps": "12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
+            }
+          ]
+        },
+        "day_6": {
+          "day_label": "Day 6: Rest",
+          "exercises": []
+        },
+        "day_7": {
+          "day_label": "Day 7: Recovery",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "week_number": 4,
+      "phase": "intensification",
       "days": {
         "day_1": {
           "day_label": "Day 1: Upper Body",
@@ -408,16 +566,6 @@
               "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
             },
             {
-              "exercise_id": "EX028",
-              "name": "Seated Overhead Tricep Extension",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
-            },
-            {
               "exercise_id": "EX027",
               "name": "Incline Dumbbell Curl",
               "sets": 3,
@@ -426,6 +574,16 @@
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
+            },
+            {
+              "exercise_id": "EX028",
+              "name": "Seated Overhead Tricep Extension",
+              "sets": 3,
+              "reps": "10-12",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
             }
           ]
         },
@@ -475,175 +633,17 @@
       }
     },
     {
-      "week_number": 4,
-      "phase": "intensification",
-      "days": {
-        "day_1": {
-          "day_label": "Upper Body",
-          "exercises": [
-            {
-              "exercise_id": "EX002",
-              "name": "Dumbbell Bench Press",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press"
-            },
-            {
-              "exercise_id": "EX015",
-              "name": "Dumbbell Row",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row"
-            },
-            {
-              "exercise_id": "EX004",
-              "name": "Seated Dumbbell Shoulder Press",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press"
-            }
-          ]
-        },
-        "day_2": {
-          "day_label": "Lower Body",
-          "exercises": [
-            {
-              "exercise_id": "EX016",
-              "name": "Barbell Glute Bridge",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "barbell, bench",
-              "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
-              "heatmap_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge"
-            },
-            {
-              "exercise_id": "EX017",
-              "name": "Lying Dumbbell Leg Curl",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
-            },
-            {
-              "exercise_id": "EX010",
-              "name": "Seated Calf Raise",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "bench, dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
-            }
-          ]
-        },
-        "day_3": {
-          "day_label": "Rest",
-          "exercises": []
-        },
-        "day_4": {
-          "day_label": "Upper Body",
-          "exercises": [
-            {
-              "exercise_id": "EX026",
-              "name": "Dumbbell Pullover",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
-            },
-            {
-              "exercise_id": "EX027",
-              "name": "Incline Dumbbell Curl",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
-            },
-            {
-              "exercise_id": "EX028",
-              "name": "Seated Overhead Tricep Extension",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
-            }
-          ]
-        },
-        "day_5": {
-          "day_label": "Lower Body",
-          "exercises": [
-            {
-              "exercise_id": "EX022",
-              "name": "Dumbbell Hip Thrust",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
-            },
-            {
-              "exercise_id": "EX005",
-              "name": "Barbell Bicep Curl",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "barbell",
-              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
-              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
-            },
-            {
-              "exercise_id": "EX014",
-              "name": "Dumbbell Lateral Raise",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
-            }
-          ]
-        },
-        "day_6": {
-          "day_label": "Rest",
-          "exercises": []
-        },
-        "day_7": {
-          "day_label": "Recovery",
-          "exercises": []
-        }
-      }
-    },
-    {
       "week_number": 5,
       "phase": "intensification",
       "days": {
         "day_1": {
-          "day_label": "Monday (Upper Body)",
+          "day_label": "Day 1: Upper Body",
           "exercises": [
             {
               "exercise_id": "EX002",
               "name": "Dumbbell Bench Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
@@ -653,7 +653,7 @@
               "exercise_id": "EX015",
               "name": "Dumbbell Row",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
@@ -663,7 +663,7 @@
               "exercise_id": "EX004",
               "name": "Seated Dumbbell Shoulder Press",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
@@ -672,13 +672,13 @@
           ]
         },
         "day_2": {
-          "day_label": "Tuesday (Lower Body)",
+          "day_label": "Day 2: Lower Body",
           "exercises": [
             {
               "exercise_id": "EX016",
               "name": "Barbell Glute Bridge",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "barbell, bench",
               "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
@@ -688,7 +688,7 @@
               "exercise_id": "EX017",
               "name": "Lying Dumbbell Leg Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
@@ -698,7 +698,7 @@
               "exercise_id": "EX010",
               "name": "Seated Calf Raise",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "bench, dumbbells",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
@@ -707,17 +707,17 @@
           ]
         },
         "day_3": {
-          "day_label": "Wednesday (Rest)",
+          "day_label": "Day 3: Rest",
           "exercises": []
         },
         "day_4": {
-          "day_label": "Thursday (Upper Body)",
+          "day_label": "Day 4: Upper Body",
           "exercises": [
             {
               "exercise_id": "EX026",
               "name": "Dumbbell Pullover",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
@@ -727,7 +727,7 @@
               "exercise_id": "EX028",
               "name": "Seated Overhead Tricep Extension",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
@@ -737,7 +737,7 @@
               "exercise_id": "EX027",
               "name": "Incline Dumbbell Curl",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
@@ -746,46 +746,46 @@
           ]
         },
         "day_5": {
-          "day_label": "Friday (Lower Body)",
+          "day_label": "Day 5: Lower Body",
           "exercises": [
             {
               "exercise_id": "EX022",
               "name": "Dumbbell Hip Thrust",
               "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells, bench",
               "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
               "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
             },
             {
-              "exercise_id": "EX005",
-              "name": "Barbell Bicep Curl",
+              "exercise_id": "EX017",
+              "name": "Lying Dumbbell Leg Curl",
               "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "barbell",
-              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
-              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
-            },
-            {
-              "exercise_id": "EX014",
-              "name": "Dumbbell Lateral Raise",
-              "sets": 3,
-              "reps": "10-12",
+              "reps": "10",
               "rpe": 8.0,
               "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+            },
+            {
+              "exercise_id": "EX010",
+              "name": "Seated Calf Raise",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "bench, dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
             }
           ]
         },
         "day_6": {
-          "day_label": "Saturday (Rest)",
+          "day_label": "Day 6: Rest",
           "exercises": []
         },
         "day_7": {
-          "day_label": "Sunday (Recovery)",
+          "day_label": "Day 7: Recovery",
           "exercises": []
         }
       }
@@ -836,164 +836,6 @@
               "exercise_id": "EX016",
               "name": "Barbell Glute Bridge",
               "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "barbell, bench",
-              "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
-              "heatmap_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge"
-            },
-            {
-              "exercise_id": "EX017",
-              "name": "Lying Dumbbell Leg Curl",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
-            },
-            {
-              "exercise_id": "EX010",
-              "name": "Seated Calf Raise",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "bench, dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
-            }
-          ]
-        },
-        "day_3": {
-          "day_label": "Day 3: Rest",
-          "exercises": []
-        },
-        "day_4": {
-          "day_label": "Day 4: Upper Body",
-          "exercises": [
-            {
-              "exercise_id": "EX026",
-              "name": "Dumbbell Pullover",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
-            },
-            {
-              "exercise_id": "EX028",
-              "name": "Seated Overhead Tricep Extension",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
-            },
-            {
-              "exercise_id": "EX027",
-              "name": "Incline Dumbbell Curl",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
-            }
-          ]
-        },
-        "day_5": {
-          "day_label": "Day 5: Lower Body",
-          "exercises": [
-            {
-              "exercise_id": "EX022",
-              "name": "Dumbbell Hip Thrust",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
-            },
-            {
-              "exercise_id": "EX017",
-              "name": "Lying Dumbbell Leg Curl",
-              "sets": 3,
-              "reps": "8-10",
-              "rpe": 7.5,
-              "equipment": "dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
-            },
-            {
-              "exercise_id": "EX010",
-              "name": "Seated Calf Raise",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "bench, dumbbells",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
-            }
-          ]
-        },
-        "day_6": {
-          "day_label": "Day 6: Rest",
-          "exercises": []
-        },
-        "day_7": {
-          "day_label": "Day 7: Recovery",
-          "exercises": []
-        }
-      }
-    },
-    {
-      "week_number": 7,
-      "phase": "deload",
-      "days": {
-        "day_1": {
-          "day_label": "Day 1: Upper Body",
-          "exercises": [
-            {
-              "exercise_id": "EX002",
-              "name": "Dumbbell Bench Press",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press"
-            },
-            {
-              "exercise_id": "EX015",
-              "name": "Dumbbell Row",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row"
-            },
-            {
-              "exercise_id": "EX004",
-              "name": "Seated Dumbbell Shoulder Press",
-              "sets": 3,
-              "reps": "10-12",
-              "rpe": 8.0,
-              "equipment": "dumbbells, bench",
-              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
-              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press"
-            }
-          ]
-        },
-        "day_2": {
-          "day_label": "Day 2: Lower Body",
-          "exercises": [
-            {
-              "exercise_id": "EX016",
-              "name": "Barbell Glute Bridge",
-              "sets": 3,
               "reps": "10-12",
               "rpe": 8.0,
               "equipment": "barbell, bench",
@@ -1105,33 +947,190 @@
           "exercises": []
         }
       }
+    },
+    {
+      "week_number": 7,
+      "phase": "deload",
+      "days": {
+        "day_1": {
+          "day_label": "Upper Body",
+          "exercises": [
+            {
+              "exercise_id": "EX002",
+              "name": "Dumbbell Bench Press",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-bench-press"
+            },
+            {
+              "exercise_id": "EX015",
+              "name": "Dumbbell Row",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/lats/one-arm-dumbbell-row"
+            },
+            {
+              "exercise_id": "EX004",
+              "name": "Seated Dumbbell Shoulder Press",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-shoulder-press"
+            }
+          ]
+        },
+        "day_2": {
+          "day_label": "Lower Body",
+          "exercises": [
+            {
+              "exercise_id": "EX016",
+              "name": "Barbell Glute Bridge",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "barbell, bench",
+              "anatomy_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge",
+              "heatmap_url": "https://musclewiki.com/barbell/male/glutes/barbell-glute-bridge"
+            },
+            {
+              "exercise_id": "EX017",
+              "name": "Lying Dumbbell Leg Curl",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/hamstrings/lying-dumbbell-leg-curl"
+            },
+            {
+              "exercise_id": "EX022",
+              "name": "Dumbbell Hip Thrust",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/glutes/dumbbell-hip-thrust"
+            }
+          ]
+        },
+        "day_3": {
+          "day_label": "Rest",
+          "exercises": []
+        },
+        "day_4": {
+          "day_label": "Upper Body",
+          "exercises": [
+            {
+              "exercise_id": "EX026",
+              "name": "Dumbbell Pullover",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/chest/dumbbell-pullover"
+            },
+            {
+              "exercise_id": "EX027",
+              "name": "Incline Dumbbell Curl",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/biceps/incline-dumbbell-curl"
+            },
+            {
+              "exercise_id": "EX028",
+              "name": "Seated Overhead Tricep Extension",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells, bench",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/triceps/seated-overhead-dumbbell-extension"
+            }
+          ]
+        },
+        "day_5": {
+          "day_label": "Lower Body",
+          "exercises": [
+            {
+              "exercise_id": "EX010",
+              "name": "Seated Calf Raise",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "bench, dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/calves/seated-dumbbell-calf-raise"
+            },
+            {
+              "exercise_id": "EX014",
+              "name": "Dumbbell Lateral Raise",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "dumbbells",
+              "anatomy_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise",
+              "heatmap_url": "https://musclewiki.com/dumbbells/male/shoulders/dumbbell-lateral-raise"
+            },
+            {
+              "exercise_id": "EX005",
+              "name": "Barbell Bicep Curl",
+              "sets": 3,
+              "reps": "10",
+              "rpe": 8.0,
+              "equipment": "barbell",
+              "anatomy_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl",
+              "heatmap_url": "https://musclewiki.com/barbell/male/biceps/barbell-curl"
+            }
+          ]
+        },
+        "day_6": {
+          "day_label": "Rest",
+          "exercises": []
+        },
+        "day_7": {
+          "day_label": "Recovery",
+          "exercises": []
+        }
+      }
     }
   ],
   "safety_manifesto": {
     "hard_stops": [
-      "deep_knee_flexion",
+      "deep_squatting",
       "plyometrics",
-      "knee_extension_loaded",
-      "heavy_squats",
-      "spinal_loading",
-      "trunk_rotation_unloaded",
       "trunk_rotation_loaded",
+      "aggressive_knee_bending",
+      "excessive_spinal_extension",
+      "deep_knee_flexion",
       "trunk_flexion",
-      "deep_knee_bending",
+      "spinal_loading",
       "heavy_deadlifts",
-      "heavy_lunges",
-      "trunk_extension_loaded"
+      "high_impact_exercises",
+      "knee_extension_loaded"
     ],
     "modifications": [
+      "Avoid high-impact exercises like box jumps and burpees",
+      "Limit weight and focus on proper form for exercises like squats and lunges",
+      "Use a stability ball or Swiss ball for exercises that require trunk rotation or flexion",
       "Neutral spine only",
-      "Limit trunk rotation",
-      "Avoid any movements that exacerbate lower back pain",
+      "Use a step or bench to reduce knee bend depth",
       "Use belt for any standing press",
+      "Limit ROM to 90\u00c2\u00b0",
       "No impact",
-      "Avoid deep knee bends and lunges",
-      "Avoid heavy squats and deadlifts",
-      "Use a lumbar roll for support",
-      "Limit ROM to 90\u00c2\u00b0"
+      "Avoid deep squats and deadlifts until knee injury is resolved"
     ],
     "safe_positions": [
       "supine",
@@ -1139,7 +1138,7 @@
     ],
     "force_adaptive": false,
     "redistributed_from": null,
-    "safety_narrative": "Safety Manifesto: Given the patient's medical flags of a disc bulge at L4-L5 and a sensitive right knee when squatting deep, it is crucial to prioritize their safety and prevent further injury. The following movements and modifications are recommended to minimize the risk of exacerbating the existing conditions. Deep knee bends and lunges can put excessive stress on the knee joint, while heavy squats and deadlifts can exacerbate the lower back pain. Trunk rotation, whether loaded or unloaded, can also contribute to the strain on the lower back. To mitigate these risks, the patient should avoid deep knee bends and lunges, heavy squats and deadlifts, and limit trunk rotation. Additionally, using a lumbar roll for support and avoiding any movements that exacerbate lower back pain are essential precautions to take. By following these modifications and hard stops, the patient can safely work towards their goals of building muscle and increasing strength while focusing on longevity."
+    "safety_narrative": "Safety Manifesto: As a clinical gatekeeper, I must emphasize the importance of prioritizing your safety and well-being. Given your medical flags and injuries, we need to take extra precautions to avoid exacerbating your disc bulge and knee injury. Please avoid deep squatting, heavy deadlifts, and aggressive knee bending, as these can put unnecessary stress on your lower back and knee. Limit your weight and focus on proper form for exercises like squats and lunges. Avoid high-impact exercises like box jumps and burpees, and instead opt for lower-impact alternatives. Additionally, use a stability ball or Swiss ball for exercises that require trunk rotation or flexion. By following these modifications and hard stops, you can safely achieve your goals and prioritize your longevity."
   },
   "metadata": {
     "total_weeks": 7,

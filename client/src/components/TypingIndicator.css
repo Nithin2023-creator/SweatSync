@@ -1,0 +1,20 @@
+.typing-bubble {
+    background: var(--bg-ai-bubble);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-bubble);
+    border-bottom-left-radius: 6px;
+    padding: 14px 22px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    animation: fadeInUp 0.3s ease-out;
+    box-shadow: var(--shadow-bubble);
+}
+
+.typing-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-cyan);
+    animation: dotBounce 1.2s infinite ease-in-out;
+}

@@ -1,0 +1,122 @@
+.input-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, var(--bg-primary) 80%, transparent);
+    padding: 20px 16px 30px;
+    z-index: 100;
+}
+
+.input-bar-container {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.chips-area {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-input);
+    padding: 12px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.3s ease-out;
+}
+
+.input-bar-inner.text-mode {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--bg-input);
+    border: 1.5px solid var(--border-input);
+    border-radius: var(--radius-input);
+    padding: 6px 6px 6px 16px;
+    transition: all var(--transition-fast);
+}
+
+.input-bar-inner.text-mode:focus-within {
+    border-color: var(--border-input-focus);
+    box-shadow: var(--shadow-glow);
+    background: var(--bg-input-focus);
+}
+
+.text-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    font-size: 0.95rem;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+.text-input::placeholder {
+    color: var(--text-tertiary);
+}
+
+/* Remove number input spinners */
+.text-input[type='number']::-webkit-outer-spin-button,
+.text-input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.text-input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.send-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background: var(--bg-user-bubble);
+    color: var(--text-user-bubble);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all var(--transition-fast);
+}
+
+.send-btn:hover:not(:disabled) {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-glow);
+}
+
+.send-btn:active:not(:disabled) {
+    transform: scale(0.94);
+}
+
+.send-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .input-bar {
+        padding: 12px 10px 20px;
+    }
+
+    .chips-area {
+        padding: 8px;
+    }
+}
