@@ -1,0 +1,142 @@
+.profile-complete-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 10, 15, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    animation: fadeIn 0.4s ease-out;
+    padding: 20px;
+}
+
+.profile-card {
+    position: relative;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-card);
+    padding: 36px 32px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    animation: scaleIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    overflow: hidden;
+}
+
+.profile-card-glow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(0, 230, 118, 0.06) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.profile-icon {
+    margin-bottom: 16px;
+}
+
+.profile-card h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    background: linear-gradient(135deg, #00E676, #00E5FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.profile-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.highlight {
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+.sho-summary {
+    background: var(--bg-tertiary);
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sho-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.sho-label {
+    font-size: 0.78rem;
+    color: var(--text-tertiary);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    flex-shrink: 0;
+}
+
+.sho-value {
+    font-size: 0.88rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    text-align: right;
+}
+
+.sho-value.capitalize {
+    text-transform: capitalize;
+}
+
+.sho-value.warn {
+    color: var(--accent-red);
+}
+
+.progress-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 30%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #00E676, #00E5FF);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+}
+
+.progress-text {
+    font-size: 0.72rem;
+    color: var(--text-tertiary);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+    .profile-card {
+        padding: 28px 20px;
+    }
+}

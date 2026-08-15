@@ -1,0 +1,282 @@
+.exercise-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* Always align to bottom for bottom sheet feel */
+    z-index: 2000;
+    animation: modalfadeIn 0.3s ease-out;
+}
+
+@keyframes modalfadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.exercise-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    max-height: 90vh;
+    padding: 2rem;
+    padding-top: 3rem;
+    /* Extra space for drag handle */
+    overflow-y: auto;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.4);
+    animation: sheetSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    background: var(--bg-card);
+    /* Ensure it has a solid-ish background */
+}
+
+/* Drag Handle / Indicator */
+.exercise-modal-content::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 99px;
+}
+
+@keyframes sheetSlideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Loading & Error States */
+.modal-loading,
+.modal-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.loader-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(0, 229, 255, 0.2);
+    border-top-color: var(--accent-cyan);
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.error-subtext {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+}
+
+/* Modal Body */
+.modal-body h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    padding-right: 2rem;
+    /* space for close btn */
+}
+
+/* Hero Section: GIF + Stats */
+.modal-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 320px;
+    /* Reduced size to hide low quality */
+    margin: 0 auto;
+    /* Center it */
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-subtle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise-gif {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    mix-blend-mode: luminosity;
+    /* Style enhancement for medical/x-ray feel */
+    transition: all 0.3s ease;
+}
+
+.exercise-gif:hover {
+    mix-blend-mode: normal;
+}
+
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.75rem;
+}
+
+.stat-pill {
+    background: rgba(0, 229, 255, 0.05);
+    border: 1px solid rgba(0, 229, 255, 0.15);
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-pill.plan-target {
+    background: rgba(187, 134, 252, 0.1);
+    border-color: rgba(187, 134, 252, 0.2);
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.stat-value {
+    font-size: 1rem;
+    color: var(--text-primary);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Typography & Lists */
+h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.muscle-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.muscle-tag {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+
+.instructions-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.instructions-list li {
+    margin-bottom: 0.75rem;
+}
+
+.instructions-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .exercise-modal-content {
+        padding: 1.5rem;
+        padding-top: 2.5rem;
+        max-height: 94vh;
+    }
+
+    .modal-body h2 {
+        font-size: 1.6rem;
+        margin-top: 0.5rem;
+    }
+
+    .image-container {
+        max-width: 280px;
+    }
+
+    .quick-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stat-pill {
+        padding: 0.8rem;
+    }
+
+    .close-btn {
+        top: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+}

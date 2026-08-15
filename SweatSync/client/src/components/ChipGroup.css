@@ -1,0 +1,79 @@
+.chip-group-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+}
+
+.chip {
+    padding: 8px 18px;
+    border-radius: var(--radius-chip);
+    border: 1.5px solid var(--border-input);
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    user-select: none;
+    white-space: nowrap;
+}
+
+.chip:hover {
+    border-color: var(--accent-cyan);
+    background: var(--accent-cyan-dim);
+    transform: translateY(-1px);
+}
+
+.chip:active {
+    transform: scale(0.96);
+}
+
+.chip-active {
+    background: var(--accent-cyan-dim);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.15);
+}
+
+.chip-send-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 24px;
+    border-radius: var(--radius-chip);
+    border: none;
+    background: var(--bg-user-bubble);
+    color: var(--text-user-bubble);
+    font-family: var(--font-family);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    margin-top: 4px;
+}
+
+.chip-send-btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-glow);
+}
+
+.chip-send-btn:active:not(:disabled) {
+    transform: scale(0.96);
+}
+
+.chip-send-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}

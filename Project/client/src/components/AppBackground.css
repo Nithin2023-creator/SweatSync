@@ -1,0 +1,72 @@
+.app-background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: var(--bg-primary);
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* Mesh Grid */
+.mesh-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(var(--border-subtle) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border-subtle) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: radial-gradient(circle at center, black, transparent 80%);
+    -webkit-mask-image: radial-gradient(circle at center, black, transparent 80%);
+    opacity: 0.15;
+    animation: meshShift 10s linear infinite;
+}
+
+/* Ambient Orbs */
+.ambient-glows {
+    position: absolute;
+    inset: 0;
+}
+
+.ambient-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+    animation: float-orb 20s infinite ease-in-out;
+}
+
+.orb-primary {
+    top: -10%;
+    right: -5%;
+    width: 40vw;
+    height: 40vw;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.08) 0%, transparent 70%);
+}
+
+.orb-secondary {
+    bottom: -15%;
+    left: -10%;
+    width: 40vw;
+    height: 40vw;
+    background: radial-gradient(circle, rgba(0, 230, 118, 0.08) 0%, transparent 70%);
+}
+
+.orb-tertiary {
+    top: 40%;
+    left: 30%;
+    width: 30vw;
+    height: 30vw;
+    background: radial-gradient(circle, rgba(187, 134, 252, 0.05) 0%, transparent 70%);
+    animation-delay: -5s;
+}
+
+@keyframes float-orb {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    33% { transform: translate(10%, 10%) scale(1.1); }
+    66% { transform: translate(-5%, 15%) scale(0.9); }
+}
+
+@keyframes meshShift {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 40px; }
+}

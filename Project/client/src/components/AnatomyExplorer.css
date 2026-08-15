@@ -1,0 +1,173 @@
+.anatomy-explorer-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.anatomy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.anatomy-header h2 {
+    font-size: 2rem;
+    font-weight: 850;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.5rem;
+    background: var(--text-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.anatomy-header p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.anatomy-toggle {
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px;
+    border-radius: 99px;
+    border: 1px solid var(--border-subtle);
+}
+
+.anatomy-toggle button {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 8px 24px;
+    border-radius: 99px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.anatomy-toggle button.active {
+    background: var(--accent-cyan);
+    color: #0A0A0F;
+    box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3);
+}
+
+.anatomy-body-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 400px;
+}
+
+.anatomy-model-container {
+    width: 100%;
+    max-width: 320px;
+    filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.1));
+}
+
+/* Override react-body-highlighter defaults */
+.rbh polygon,
+.rbh path {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rbh polygon:hover,
+.rbh path:hover {
+    fill: var(--accent-cyan) !important;
+    opacity: 0.8;
+}
+
+.muscle-popup-card {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 250px;
+    padding: 1.5rem;
+    animation: slideUp 0.4s var(--transition-spring);
+    z-index: 10;
+}
+
+.muscle-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.muscle-popup-header h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--accent-cyan);
+    margin: 0;
+}
+
+.close-popup {
+    background: transparent;
+    border: none;
+    color: var(--text-tertiary);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.2s ease;
+}
+
+.close-popup:hover {
+    color: var(--text-primary);
+}
+
+.muscle-popup-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+.view-exercises-btn {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    padding: 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.view-exercises-btn:hover {
+    background: var(--accent-cyan);
+    color: #0A0A0F;
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 229, 255, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .anatomy-body-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .muscle-popup-card {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        max-width: 320px;
+        margin-top: -2rem;
+        /* Overlap the SVG slightly */
+    }
+}

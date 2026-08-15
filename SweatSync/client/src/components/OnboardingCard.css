@@ -1,0 +1,254 @@
+.onboarding-card-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    animation: fadeIn 0.6s ease-out;
+    position: relative;
+    z-index: 10;
+}
+
+.onboarding-card-glass {
+    width: 100%;
+    max-width: 600px;
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-card);
+    padding: 2.5rem;
+    box-shadow: var(--glass-shadow);
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    animation: slideUp 0.5s var(--transition-spring);
+}
+
+/* ---------- Header ---------- */
+.onboarding-header {
+    margin-bottom: 3rem;
+}
+
+.onboarding-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.step-counter {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.progress-percent-mini {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent-cyan);
+}
+
+.progress-track-mini {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-fill-mini {
+    height: 100%;
+    background: var(--gradient-brand);
+    border-radius: 3px;
+    transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
+}
+
+/* ---------- Content ---------- */
+.onboarding-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-text {
+    font-size: clamp(1.5rem, 5vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    margin-bottom: 2.5rem;
+    color: var(--text-primary);
+}
+
+/* ---------- Chips ---------- */
+.chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-bottom: 2rem;
+}
+
+.suggestion-chip {
+    padding: 0.9rem 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-chip);
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.suggestion-chip:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.suggestion-chip.active {
+    background: var(--accent-cyan-dim);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+}
+
+/* ---------- Input ---------- */
+.card-input-form {
+    width: 100%;
+}
+
+.card-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--border-input);
+    padding: 1rem 0;
+    color: var(--text-primary);
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+    transition: border-color var(--transition-normal);
+}
+
+.card-input:focus {
+    outline: none;
+    border-color: var(--accent-cyan);
+}
+
+/* ---------- Loading State & Animations ---------- */
+.onboarding-card-container.loading .onboarding-card-glass {
+    opacity: 0.7;
+    pointer-events: none;
+    filter: saturate(0.5);
+}
+
+.onboarding-card-container.loading .onboarding-content {
+    animation: shimmerSlide 1.5s infinite linear;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.05) 50%,
+            transparent 100%);
+    background-size: 200% 100%;
+}
+
+@keyframes shimmerSlide {
+    0% {
+        background-position: -150% 0;
+    }
+
+    100% {
+        background-position: 150% 0;
+    }
+}
+
+.onboarding-card-container.loading .question-text {
+    opacity: 0.5;
+    transform: scale(0.98);
+    transition: all 0.4s ease;
+}
+
+/* ---------- Footer ---------- */
+.onboarding-footer {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 80px;
+    align-items: center;
+}
+
+.continue-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.1rem 2.2rem;
+    background: var(--gradient-brand);
+    color: #0A0A0F;
+    border: none;
+    border-radius: 32px;
+    font-size: 1.1rem;
+    font-weight: 750;
+    font-family: var(--font-family);
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 229, 255, 0.3);
+    transition: all var(--transition-normal);
+}
+
+.continue-btn:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(0, 229, 255, 0.5);
+}
+
+.continue-btn:active {
+    transform: translateY(0) scale(0.96);
+}
+
+.footer-hint {
+    color: var(--text-tertiary);
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .onboarding-card-glass {
+        padding: 1.75rem 1.25rem;
+        background: var(--glass-bg-mobile);
+        border: 1px solid var(--glass-border);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: var(--radius-card-mobile);
+        min-height: 480px;
+        box-shadow: var(--glass-shadow);
+    }
+
+    .onboarding-card-container {
+        padding: 1rem;
+        justify-content: flex-start;
+    }
+
+    .question-text {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .suggestion-chip {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .continue-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 1.2rem;
+    }
+}
